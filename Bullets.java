@@ -1,14 +1,17 @@
 //Creating a custom class with two field (live and blanks) to store objects of this
 //class in an arraylist
 
-import java.util.ArrayList;
-public class Chamber {
+public class Bullets {
     int live;
     int blanks;
 
     //Constructor
-    public Chamber(int live, int blanks){
+    public Bullets(int live, int blanks){
         this.live = live;
         this.blanks = blanks;
+    }
+
+    public String toString(){
+        return "Bullets{live=" + live + ", blanks=" + blanks + "}";
     }
 }
